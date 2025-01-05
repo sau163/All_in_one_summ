@@ -50,9 +50,9 @@ def handle_user_input(user_question):
 
 # Main app
 def main():
-    st.set_page_config(page_title="Chat with Websites", page_icon=":robot:")
+    #st.set_page_config(page_title="Chat with Websites", page_icon=":robot:")
     st.write(css, unsafe_allow_html=True)  # Inject CSS styling
-    st.title("Chat with Websites :robot:")
+    st.title("Chat with Websites :")
 
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
